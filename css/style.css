@@ -982,10 +982,4 @@ button:hover {
     justify-content: center;
     margin-top: 15px;
   }
-
-  .title:hover {
-    transition: all 0.5s ease;
-    font-size: 3.5em;
-    color: blue;
-  }
 }
