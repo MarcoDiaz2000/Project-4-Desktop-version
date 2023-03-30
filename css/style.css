@@ -77,8 +77,9 @@ header {
   margin: 0 20px;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .menudesktop {
+    display: none;
   }
 }
 
@@ -281,17 +282,13 @@ header .mylogo {
 }
 
 @media (min-width: 768px) {
-  .subhero {
-  }
-}
-
-@media (min-width: 768px) {
   .col1 {
     grid-column-start: 1;
     grid-row-start: 1;
     grid-row-end: 2;
   }
 }
+
 @media (max-width: 768px) {
   .col1:disabled {
     grid-column-start: 1;
@@ -819,7 +816,8 @@ header .mylogo {
     height: 150px;
     display: flex;
     flex-wrap: wrap;
-    margin: 0px 20px;
+    margin-left: 20px;
+    margin-right: 20px;
     padding: 10;
     padding-right: 40px;
   }
@@ -883,7 +881,7 @@ header .mylogo {
   flex-direction: column;
   height: 795px;
   margin-top: 30px;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 @media (min-width: 768px) {
