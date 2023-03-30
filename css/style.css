@@ -691,6 +691,8 @@ button:hover {
   }
 
   .hero {
+    animation-duration: 4s;
+    animation-name: lefttorightin;
     width: 1156px;
     height: 496px;
     grid-template-columns: 1fr 1fr;
@@ -699,6 +701,8 @@ button:hover {
   }
 
   .hero2 {
+    animation-duration: 4s;
+    animation-name: lefttorightin;
     width: 1156px;
     height: 496px;
     grid-template-columns: 1fr 1fr;
@@ -987,5 +991,36 @@ button:hover {
     transition: all 0.5s ease;
     font-size: 3.5em;
     color: blue;
+  }
+
+  @keyframes lefttorightin {
+    from {
+      margin-left: 100%;
+      width: 200%;
+    }
+
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+  a {
+    flex: 1;
+    background-color: blue;
+    color: #fff;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.5s ease-out;
+  }
+
+  a:hover,
+  a:focus {
+    background-color: #fff;
+    color: blue;
+    border-radius: 10px;
   }
 }
