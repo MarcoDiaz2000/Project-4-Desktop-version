@@ -700,7 +700,6 @@ header .mylogo {
 @media (min-width: 768px) {
   .languages {
     width: 727px;
-    display: flex
     flex-direction: row;
   }
 }
@@ -711,8 +710,7 @@ header .mylogo {
 
 @media (min-width: 768px) {
   .languages1 {
-margin-top: 120px; 
-
+    margin-top: 120px;
   }
 }
 
@@ -776,7 +774,6 @@ margin-top: 120px;
     display: flex;
     flex-direction: row;
     width: 100%;
-
   }
 }
 
@@ -818,13 +815,13 @@ margin-top: 120px;
 
 @media (min-width: 768px) {
   .languages4 {
-width: 20%;
-height: 150px;
-display: flex;
-flex-wrap: wrap;
-margin: 0px 20px;
-padding: 10;
-padding-right: 40px;
+    width: 20%;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 20px;
+    padding: 10;
+    padding-right: 40px;
   }
 }
 
@@ -860,7 +857,6 @@ padding-right: 40px;
     display: flex;
     flex-direction: row;
     height: 716px;
-
   }
 }
 
@@ -888,7 +884,6 @@ padding-right: 40px;
   height: 795px;
   margin-top: 30px;
   background-color: #ffffff;
-
 }
 
 @media (min-width: 768px) {
@@ -932,9 +927,9 @@ padding-right: 40px;
 
 @media (min-width: 768px) {
   .form-title {
-flex: none;
-order: 1;
-flex-grow: 0;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
   }
 }
 
@@ -950,11 +945,11 @@ flex-grow: 0;
 
 @media (min-width: 768px) {
   .form-text {
-flex: none;
-order: 1;
-flex-grow: 0;
-padding-left: 436px;
-padding-right: 436px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    padding-left: 436px;
+    padding-right: 436px;
   }
 }
 
@@ -973,7 +968,7 @@ form {
     padding-top: 0%;
     display: flex;
     justify-content: center;
-}
+  }
 }
 
 ul {
@@ -1065,21 +1060,20 @@ form button {
 
 @media (min-width: 768px) {
   form button {
-   margin: 0%;
-   justify-content: center;
-   padding-left: 8px;
-
+    margin: 0%;
+    justify-content: center;
+    padding-left: 8px;
   }
 }
 
 @media (min-width: 768px) {
   .button {
-   margin: 0%;
-   display: flex;
-   align-items: center;
-   text-align: center;
-   justify-content: center;
-   margin-top: 15px;
+    margin: 0%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 15px;
   }
 }
 
